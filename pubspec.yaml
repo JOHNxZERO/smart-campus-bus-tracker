@@ -1,0 +1,33 @@
+name: smart_bus_tracking
+description: A Smart Campus Bus Tracking App
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  # Firebase
+  firebase_core: ^2.24.0
+  cloud_firestore: ^4.13.0
+
+  # Maps - use caret (^) for automatic version resolution
+  flutter_map: ^6.0.0
+  latlong2: ^0.9.1
+
+  # Other dependencies
+  provider: ^6.1.1
+  geolocator: ^11.0.1
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
