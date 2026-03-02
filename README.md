@@ -1,16 +1,65 @@
-# smart_bus_tracking
+Smart Campus Bus Tracker 🚍
 
-A new Flutter project.
+A Flutter-based campus transportation tracking application designed to improve visibility and coordination between drivers and students.
 
-## Getting Started
+🚀 Problem Statement
 
-This project is a starting point for a Flutter application.
+In many campuses, students face uncertainty about bus arrival times. There is no real-time visibility, causing delays and inefficiencies.
 
-A few resources to get you started if this is your first Flutter project:
+💡 Solution
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Smart Campus Bus Tracker enables:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Live bus location tracking (session-based)
+
+Driver-side bus start/stop control
+
+Student-side bus visibility
+
+Active trip status monitoring
+
+🛠 Tech Stack
+
+Flutter (Cross-platform)
+
+Dart
+
+GPS location services
+
+Local state management
+
+🔍 Key Features
+
+Role-based flow (Driver / Student)
+
+Real-time session tracking (in-app lifecycle)
+
+Dynamic UI updates
+
+Lightweight architecture
+
+Cross-platform (Android, Web, Windows)
+
+⚠ Current Limitation
+
+No backend/database integration
+
+Data resets when app closes
+
+Each installation runs independently
+
+📈 Future Improvements
+
+Firebase integration for real-time sync
+
+Multi-driver support
+
+Live map integration
+
+Admin dashboard
+
+Cloud database connectivity
+
+🎯 Project Type
+
+Product Concept + Working Functional Prototype
